@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: saranhub/spring-boot-mongo
+        image: saranhub/spring-boot-mongo-application1:${buildNumber}
         ports:
         - containerPort: 8080
         env:
